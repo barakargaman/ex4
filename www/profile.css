@@ -1,0 +1,139 @@
+html {
+  background: white;
+}
+body {
+  background: #4aacc5;
+  color: white;
+  width: 800px;
+  margin: 10px auto;
+  font-family: Arial;
+  border: 5px solid #eee;
+  -webkit-box-shadow: 1px 1px 1px 0px #666;
+          box-shadow: 1px 1px 1px 0px #666;
+}
+
+/* header form */
+
+.login-form {
+  overflow: auto;
+  padding: 10px;
+  color: black;
+}
+
+.login-form form {
+  float: right;
+}
+
+.login-form form input {
+  border: 1px solid black;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.login-form form input[type='submit'] {
+  background: #4f81bc;
+  color: white;
+  border: 3px solid white;
+  padding: 3px 20px;
+  margin-right: 20px;
+
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-clip: padding-box;
+
+
+  -webkit-box-shadow: 2px 4px 1px 0px #367592;
+          box-shadow: 2px 4px 1px 0px #367592;
+}
+
+/* profile page */
+
+.main-inner {
+  padding: 10px 40px 20px;
+  border: 1px solid black;
+  border-width: 2px 0;
+}
+
+.main-inner .image {
+  float: right;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+
+  -webkit-transform: rotate(7.5deg); 
+     -moz-transform: rotate(7.5deg); 
+      -ms-transform: rotate(7.5deg); 
+       -o-transform: rotate(7.5deg); 
+          transform: rotate(7.5deg); 
+
+}
+
+.main-inner h1 {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.main-inner p {
+  line-height: 2;
+}
+
+.main-inner table td {
+  border: 1px solid black;
+  padding: 5px 20px;
+}
+
+#main .more-text {
+  padding: 0 20px;
+}
+
+
+/* calculator */
+
+#calculator {
+  display: none; /* initial mode: hidden */
+  width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #666;
+  border: 5px solid #999;
+ -webkit-box-shadow: 1px 1px 1px 0px #666;
+          box-shadow: 1px 1px 1px 0px #666;
+}
+
+#calculator h1 {
+  margin: 0;
+  text-shadow: #000 1px 1px;
+}
+
+#calculator #screen {
+  width: auto;
+  height: 30px;
+  padding: 5px;
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+  background: #888;
+  border: 3px solid #999;
+}
+
+#calculator #input {
+  width: 95%;
+  height: 30px;
+  padding: 5px;
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+  background: #ddd;
+  border: 3px solid #999;
+}
+
+#calculator .buttons input {
+  background: #ddd;
+  border: 3px solid #999;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+#calculator #input:hover , #calculator .buttons input:hover {
+  background: #fff;
+}
